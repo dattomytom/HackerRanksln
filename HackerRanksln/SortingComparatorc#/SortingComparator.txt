@@ -1,0 +1,9 @@
+﻿we can check and test add at Main() in Program.cs
+	var data = new List<Player> { new Player("Smith", 20), new Player("Jone", 15), new Player("Jones", 20) };
+	Console.WriteLine("Before");
+	PrintData(data);
+	var cheker = new Checker();
+	data.Sort(cheker);
+	Console.WriteLine("After");
+	PrintData(data);
+	Console.ReadLine();
